@@ -9,4 +9,5 @@
 - 📚 完整示例 & 案例
 
 [GitHub](https://github.com/yourname/yourrepo)
-[Getting Started](zh-cn/)
+[Getting Started](en/)
+[进入文档](zh-cn/)
