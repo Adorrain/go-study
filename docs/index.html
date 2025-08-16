@@ -60,18 +60,6 @@
   <div id="app">Loading...</div>
 
   <script>
-    // 🌍 自动跳转中英文（默认简体中文）
-    (function () {
-      var userLang = navigator.language || navigator.userLanguage;
-      if (!location.hash || location.hash === '#/') {
-        if (userLang.startsWith('en')) {
-          location.href = '#/en/';
-        } else {
-          location.href = '#/zh-cn/';
-        }
-      }
-    })();
-
     window.$docsify = {
       name: "🚀 Go Study Docs",
       repo: "https://github.com/yourname/yourrepo", // GitHub 仓库地址
