@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Go Study Docs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Go backend learning docs" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <!-- Theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <link rel="icon" type="image/png" href="_media/svgviewer-output.svg" />
+  <style>
+    /* 封面背景渐变 */
+    section.cover.has-mask .mask {
+      background: linear-gradient(135deg, #4CAF50, #009688); /* 绿色渐变 */
+    }
+
+    /* 封面标题样式 */
+    .cover h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff !important;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    }
+
+    /* 封面描述文字 */
+    .cover blockquote {
+      font-size: 1.2rem;
+      color: #e8f5e9 !important;
+    }
+
+    /* 封面按钮 */
+    .cover .btn {
+      border-radius: 30px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 0 8px;
+      transition: all 0.3s ease;
+    }
+    .cover .btn:first-of-type {
+      background: #4CAF50;
+      color: #fff !important;
+    }
+    .cover .btn:first-of-type:hover {
+      background: #66BB6A;
+    }
+    .cover .btn:last-of-type {
+      background: #fff;
+      color: #388E3C !important;
+      border: 2px solid #4CAF50;
+    }
+    .cover .btn:last-of-type:hover {
+      background: #4CAF50;
+      color: #fff !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <script>
+    // 🌍 自动跳转中英文（默认简体中文）
+    (function () {
+      var userLang = navigator.language || navigator.userLanguage;
+      if (!location.hash || location.hash === '#/') {
+        if (userLang.startsWith('en')) {
+          location.href = '#/en/';
+        } else {
+          location.href = '#/zh-cn/';
+        }
+      }
+    })();
+
+    window.$docsify = {
+      name: "🚀 Go Study Docs",
+      repo: "https://github.com/yourname/yourrepo", // GitHub 仓库地址
+      loadSidebar: true,        // 加载侧边栏
+      subMaxLevel: 3,           // 展示标题层级
+      loadNavbar: true,         // 加载导航栏
+      mergeNavbar: true,        // 小屏幕时合并导航栏
+      search: "auto",           // 搜索插件
+      themeColor: "#3F51B5",    // 主题色
+      coverpage: true,          // 启用封面
+      onlyCover: false,         // 封面+进入文档
+      pagination: {
+        previousText: "← Prev",
+        nextText: "Next →",
+        crossChapter: true,
+        crossChapterText: true
+      }
+    }
+  </script>
+
+  <!-- Docsify Core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  <!-- 插件：搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  
+  <!-- 插件：分页 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  
+  <!-- 插件：复制代码 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  
+  <!-- 插件：字数统计（可选） -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+</body>
+</html>
