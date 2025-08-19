@@ -8,6 +8,6 @@
 - 🌍 支持中英文切换
 - 📚 完整示例 & 案例
 
-[GitHub](https://github.com/yourname/yourrepo)
+[GitHub](https://github.com/Adorrain/go-study)
 [Getting Started](en/)
 [进入文档](zh-cn/)
