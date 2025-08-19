@@ -1,4 +1,5 @@
-- [首页](#/) <!-- 回到 README.md 顶部 -->
-- [基础知识](#/基础知识)
+- [首页](/zh-cn/README.md) <!-- 回到 README.md 顶部 -->
+- [基础知识](/zh-cn/context/README.md)
+  - [go 语言特征](/zh-cn/context/basis.md)
 - [Go 框架](#/Go-框架)
 - [实战案例](#/实战案例)
