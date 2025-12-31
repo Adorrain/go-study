@@ -9,5 +9,4 @@
 - 📚 完整示例 & 案例
 
 [GitHub](https://github.com/Adorrain/go-study)
-[Getting Started](en/)
 [进入文档](zh-cn/)
