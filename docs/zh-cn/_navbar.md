@@ -5,6 +5,3 @@
 - 参考
   - [API 文档](/zh-cn/reference/api.md)
   - [常见问题](/zh-cn/reference/faq.md)
-- 中英文
-  - [中文](/zh-cn)
-  - [英文](/en)
