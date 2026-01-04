@@ -1,4 +1,4 @@
-![logo](/docs/_media/svgviewer-output.svg)
+![logo](./_media/svgviewer-output.svg)
 
 # Go Study Docs <small>1.0</small>
 
